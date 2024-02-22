@@ -1,0 +1,30 @@
+{
+    
+    "name": "cartrade/webapps-auto-setup",
+    "description": "A library which helps to easily configure a web application connections",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anil Chintala",
+            "email": "anil.ch@cartrade.com"
+        },
+        {
+            "name": "Dinesh Gandham",
+            "email": "dinesh.g@cartrade.com"
+        },
+        {
+            "name": "Bhargav Sanjay Gopalapurapu",
+            "email": "bhargav.sanjay@cartrade.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cartrade\\WebApps-Auto-Setup\\": "src/"
+        }
+    }
+}
